@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" data-theme="day">
+<head><meta charset="utf-8"><title>ProgressBar — Cozy Game World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../bundle.css">
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="../bundle.js"></script>
+</head>
+<body>
+<!-- Standalone example of the ProgressBar component. Change data-theme on <html> to dusk or night to see the other themes. -->
+<div id="root" class="cz-row"></div>
+<script>
+  var C = window.Cozy, h = React.createElement;
+  var r = h('div', { className: 'cz-col', style: { padding: 0, width: 360 } }, h(C.ProgressBar, { label: 'World explored', value: 58 }), h(C.ProgressBar, { label: 'Hearts', value: 3, max: 5, valueText: '3/5', tone: 'berry' }), h(C.ProgressBar, { label: 'Stars', value: 7, max: 12, valueText: '7/12', tone: 'honey' }));
+  ReactDOM.createRoot(document.getElementById('root')).render(r);
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+The world's 25 line icons as standalone SVG: 24px grid, 2.5px round stroke, single ink `cocoa-900` (#4A3224) — they cannot inherit colour through `<img>`, so on Night grounds use the `Icon` component (which draws in `currentColor`) or recolour the stroke to `cream-100`. Pair any icon that carries meaning with a word.

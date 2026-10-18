@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" data-theme="day">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cozy Game World — component gallery</title>
+<link rel="stylesheet" href="tokens/tokens.css">
+<link rel="stylesheet" href="components/bundle.css">
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="components/bundle.js"></script>
+<style>
+  body { padding: 0 16px 96px; }
+  .gal-top { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 16px 0; background: var(--bg-page); }
+  .gal-wrap { max-width: 1200px; margin: 0 auto; }
+  .gal-h2 { margin: 48px 0 16px; color: var(--ink); }
+  .gal-card { margin: 0 0 24px; padding: 20px 20px 8px; border: 3px solid var(--outline); border-radius: var(--radius-lg); background: var(--bg-page); box-shadow: var(--shadow-block); overflow-x: auto; }
+  .gal-card h3 { margin: 0; color: var(--ink); }
+  .gal-doc { margin: 2px 0 0; color: var(--ink-soft); }
+  .gal-themes { display: flex; gap: 8px; }
+</style>
+</head>
+<body>
+<header class="gal-top">
+  <h1 class="title-28" style="margin:0">Cozy Game World</h1>
+  <div class="gal-themes" role="group" aria-label="Theme">
+    <button class="cz-btn cz-btn--sm cz-btn--ghost" data-t="day">Day</button>
+    <button class="cz-btn cz-btn--sm cz-btn--ghost" data-t="dusk">Dusk</button>
+    <button class="cz-btn cz-btn--sm cz-btn--ghost" data-t="night">Night</button>
+  </div>
+</header>
+<main class="gal-wrap">
+<p class="body-lg" style="color:var(--ink-soft)">Every component in the design system, live. Rules live in BRAND.md and each component's README.</p>
+<h2 class="title-36 gal-h2">Foundations</h2>
+<section class="gal-card" id="Icon"><h3 class="title-22">Icon</h3><p class="caption gal-doc">components/Icon/README.md</p><div id="ex-Icon" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Actions</h2>
+<section class="gal-card" id="Button"><h3 class="title-22">Button</h3><p class="caption gal-doc">components/Button/README.md</p><div id="ex-Button" class="cz-row"></div></section>
+<section class="gal-card" id="IconButton"><h3 class="title-22">IconButton</h3><p class="caption gal-doc">components/IconButton/README.md</p><div id="ex-IconButton" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Forms</h2>
+<section class="gal-card" id="Checkbox"><h3 class="title-22">Checkbox</h3><p class="caption gal-doc">components/Checkbox/README.md</p><div id="ex-Checkbox" class="cz-row"></div></section>
+<section class="gal-card" id="HeartSlider"><h3 class="title-22">HeartSlider</h3><p class="caption gal-doc">components/HeartSlider/README.md</p><div id="ex-HeartSlider" class="cz-row"></div></section>
+<section class="gal-card" id="LampToggle"><h3 class="title-22">LampToggle</h3><p class="caption gal-doc">components/LampToggle/README.md</p><div id="ex-LampToggle" class="cz-row"></div></section>
+<section class="gal-card" id="Radio"><h3 class="title-22">Radio</h3><p class="caption gal-doc">components/Radio/README.md</p><div id="ex-Radio" class="cz-row"></div></section>
+<section class="gal-card" id="Select"><h3 class="title-22">Select</h3><p class="caption gal-doc">components/Select/README.md</p><div id="ex-Select" class="cz-row"></div></section>
+<section class="gal-card" id="TextField"><h3 class="title-22">TextField</h3><p class="caption gal-doc">components/TextField/README.md</p><div id="ex-TextField" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Containers</h2>
+<section class="gal-card" id="Card"><h3 class="title-22">Card</h3><p class="caption gal-doc">components/Card/README.md</p><div id="ex-Card" class="cz-row"></div></section>
+<section class="gal-card" id="GameWindow"><h3 class="title-22">GameWindow</h3><p class="caption gal-doc">components/GameWindow/README.md</p><div id="ex-GameWindow" class="cz-row"></div></section>
+<section class="gal-card" id="Polaroid"><h3 class="title-22">Polaroid</h3><p class="caption gal-doc">components/Polaroid/README.md</p><div id="ex-Polaroid" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Game layer</h2>
+<section class="gal-card" id="AchievementToast"><h3 class="title-22">AchievementToast</h3><p class="caption gal-doc">components/AchievementToast/README.md</p><div id="ex-AchievementToast" class="cz-row"></div></section>
+<section class="gal-card" id="DialogueBox"><h3 class="title-22">DialogueBox</h3><p class="caption gal-doc">components/DialogueBox/README.md</p><div id="ex-DialogueBox" class="cz-row"></div></section>
+<section class="gal-card" id="HUD"><h3 class="title-22">HUD</h3><p class="caption gal-doc">components/HUD/README.md</p><div id="ex-HUD" class="cz-row"></div></section>
+<section class="gal-card" id="ItemCard"><h3 class="title-22">ItemCard</h3><p class="caption gal-doc">components/ItemCard/README.md</p><div id="ex-ItemCard" class="cz-row"></div></section>
+<section class="gal-card" id="Mascot"><h3 class="title-22">Mascot</h3><p class="caption gal-doc">components/Mascot/README.md</p><div id="ex-Mascot" class="cz-row"></div></section>
+<section class="gal-card" id="QuestLog"><h3 class="title-22">QuestLog</h3><p class="caption gal-doc">components/QuestLog/README.md</p><div id="ex-QuestLog" class="cz-row"></div></section>
+<section class="gal-card" id="TitleScreen"><h3 class="title-22">TitleScreen</h3><p class="caption gal-doc">components/TitleScreen/README.md</p><div id="ex-TitleScreen" class="cz-col"></div></section>
+<h2 class="title-36 gal-h2">Navigation</h2>
+<section class="gal-card" id="Breadcrumbs"><h3 class="title-22">Breadcrumbs</h3><p class="caption gal-doc">components/Breadcrumbs/README.md</p><div id="ex-Breadcrumbs" class="cz-row"></div></section>
+<section class="gal-card" id="Tabs"><h3 class="title-22">Tabs</h3><p class="caption gal-doc">components/Tabs/README.md</p><div id="ex-Tabs" class="cz-row"></div></section>
+<section class="gal-card" id="WorldMap"><h3 class="title-22">WorldMap</h3><p class="caption gal-doc">components/WorldMap/README.md</p><div id="ex-WorldMap" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Feedback</h2>
+<section class="gal-card" id="Badge"><h3 class="title-22">Badge</h3><p class="caption gal-doc">components/Badge/README.md</p><div id="ex-Badge" class="cz-row"></div></section>
+<section class="gal-card" id="EmptyState"><h3 class="title-22">EmptyState</h3><p class="caption gal-doc">components/EmptyState/README.md</p><div id="ex-EmptyState" class="cz-row"></div></section>
+<section class="gal-card" id="Loader"><h3 class="title-22">Loader</h3><p class="caption gal-doc">components/Loader/README.md</p><div id="ex-Loader" class="cz-row"></div></section>
+<section class="gal-card" id="ProgressBar"><h3 class="title-22">ProgressBar</h3><p class="caption gal-doc">components/ProgressBar/README.md</p><div id="ex-ProgressBar" class="cz-row"></div></section>
+<section class="gal-card" id="Tooltip"><h3 class="title-22">Tooltip</h3><p class="caption gal-doc">components/Tooltip/README.md</p><div id="ex-Tooltip" class="cz-row"></div></section>
+<h2 class="title-36 gal-h2">Data</h2>
+<section class="gal-card" id="Accordion"><h3 class="title-22">Accordion</h3><p class="caption gal-doc">components/Accordion/README.md</p><div id="ex-Accordion" class="cz-col"></div></section>
+<section class="gal-card" id="StatBar"><h3 class="title-22">StatBar</h3><p class="caption gal-doc">components/StatBar/README.md</p><div id="ex-StatBar" class="cz-row"></div></section>
+<section class="gal-card" id="Timeline"><h3 class="title-22">Timeline</h3><p class="caption gal-doc">components/Timeline/README.md</p><div id="ex-Timeline" class="cz-col"></div></section>
+</main>
+<script>
+document.querySelectorAll('[data-t]').forEach(function (b) { b.onclick = function () { document.documentElement.dataset.theme = b.dataset.t; }; });
+var C = window.Cozy, h = React.createElement;
+(function(){ var names = C.Icon.names;
+  ReactDOM.createRoot(document.getElementById('ex-Icon')).render(h(React.Fragment, null, names.map(function (n) { return h('div', { key: n, style: { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, width: 72, font: '600 12px var(--font-sans)', color: 'var(--ink-soft)' } }, h(C.Icon, { name: n, size: 32, style: { color: 'var(--ink)' } }), n); }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Button')).render(h(React.Fragment, null, h(C.Button, { icon: 'map' }, 'Explore'), h(C.Button, { variant: 'secondary' }, 'Inspect'), h(C.Button, { variant: 'ghost', iconAfter: 'arrow' }, 'Skip'), h(C.Button, { variant: 'danger' }, 'Reset progress'), h(C.Button, { 'data-state': 'pressed' }, 'Pressed'), h(C.Button, { size: 'sm' }, 'Small'), h(C.Button, { loading: true }, 'Sending'), h(C.Button, { disabled: true }, 'Locked'))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-IconButton')).render(h(React.Fragment, null, h(C.IconButton, { icon: 'sound-off', label: 'Turn sound on' }), h(C.IconButton, { icon: 'sun', label: 'Time of day' }), h(C.IconButton, { icon: 'menu', label: 'Open menu', variant: 'primary' }), h(C.IconButton, { icon: 'sound-on', label: 'Mute', 'aria-pressed': 'true' }), h(C.IconButton, { icon: 'close', label: 'Close' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Checkbox')).render(h(React.Fragment, null, h(C.Checkbox, { label: 'Send me a postcard when new projects drop', defaultChecked: true }), h(C.Checkbox, { label: 'Remember my progress' }), h(C.Checkbox, { label: 'Locked option', disabled: true }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-HeartSlider')).render(h(React.Fragment, null, h(C.HeartSlider, { label: 'Music volume', defaultValue: 6 }), h(C.HeartSlider, { label: 'Rain', defaultValue: 3, max: 5 }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-LampToggle')).render(h(React.Fragment, null, h(C.LampToggle, { label: 'Desk lamp', defaultChecked: true }), h(C.LampToggle, { label: 'Ambient rain' }), h(C.LampToggle, { label: 'Fireplace', disabled: true }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Radio')).render(h(React.Fragment, null, h(C.Radio, { name: 'r', label: 'Day', defaultChecked: true }), h(C.Radio, { name: 'r', label: 'Dusk' }), h(C.Radio, { name: 'r', label: 'Night' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Select')).render(h(C.Select, { label: 'Reason for writing', options: ['Say hello', 'Work together', 'Just a question'] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-TextField')).render(h(React.Fragment, null, h(C.TextField, { label: 'Your name', placeholder: 'Traveller', hint: 'What should Dumpling call you?' }), h(C.TextField, { label: 'Your letter', multiline: true, placeholder: 'Dear maker…' }), h(C.TextField, { label: 'Owl post address', defaultValue: 'hello@', error: 'That address got lost in the woods — check the @ part.' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Card')).render(h(React.Fragment, null, h(C.Card, { title: 'Paper card', style: { width: 220 } }, 'The default. Notes, about text, anything to read.'), h(C.Card, { variant: 'sticky', title: 'To-do', style: { width: 180 } }, 'Water the plants. Ship the site.'), h(C.Card, { variant: 'sign', title: 'Workshop →', style: { width: 180 } }, 'Projects this way'), h(C.Card, { variant: 'parchment', title: 'Old scroll', style: { width: 200 } }, 'Backstory, lore and long reads.'), h(C.Card, { variant: 'pinned', title: 'Notice', style: { width: 200 } }, 'Pinned with tape to the board.'))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-GameWindow')).render(h(C.GameWindow, { title: 'Settings', onClose: function () {}, footer: h(React.Fragment, null, h(C.Button, { variant: 'ghost' }, 'Cancel'), h(C.Button, null, 'Save')) }, h(C.LampToggle, { label: 'Sound effects' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Polaroid')).render(h(React.Fragment, null, h(C.Polaroid, { caption: 'Studio, spring', alt: 'Placeholder scene' }), h(C.Polaroid, { caption: 'First prototype', tilt: 4 }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-AchievementToast')).render(h(React.Fragment, null, h(C.AchievementToast, { title: 'Meet the maker', description: 'You read the whole character sheet.' }), h(C.AchievementToast, { kicker: 'You found a hidden star', icon: 'star', title: '3 of 12 stars' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-DialogueBox')).render(h(C.DialogueBox, { speaker: 'Dumpling', portrait: h(C.Mascot, { mood: 'talking', size: 84 }), text: 'Oh! A visitor. Pull up a chair — the kettle\u2019s on. Want the tour?', onNext: function () {} })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-HUD')).render(h(C.HUD, { player: 'Randal', level: 'Lv. 3 Maker', found: 7, total: 12, muted: true, time: 'day' })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-ItemCard')).render(h(React.Fragment, null, h(C.ItemCard, { name: 'Lo-fi Timer', rarity: 'common', icon: 'mug', stats: { Stack: 'React', Role: 'Solo', Year: '2025' } }), h(C.ItemCard, { name: 'Study Wallpaper', rarity: 'rare', icon: 'lamp', stats: { Stack: 'HTML · Lively', Role: 'Maker', Year: '2026' } }), h(C.ItemCard, { name: 'Automation Kit', rarity: 'epic', icon: 'settings', stats: { Stack: 'n8n', Role: 'Builder', Year: '2026' } }), h(C.ItemCard, { name: 'Cozy World', rarity: 'legendary', icon: 'star', stats: { Stack: 'This site', Role: 'Everything', Year: '2026' } }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Mascot')).render(h(React.Fragment, null, h(C.Mascot, { mood: 'idle' }), h(C.Mascot, { mood: 'wave' }), h(C.Mascot, { mood: 'happy' }), h(C.Mascot, { mood: 'sleepy' }), h(C.Mascot, { mood: 'talking' }))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-QuestLog')).render(h(C.QuestLog, { quests: [{ title: 'Meet the maker', done: true }, { title: 'Visit 3 projects', done: false }, { title: 'Find a hidden star', done: true }, { title: 'Say hello', done: false }] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-TitleScreen')).render(h(C.TitleScreen, { title: 'Randal\u2019s World', tagline: 'a cozy little portfolio', onSkip: function () {}, tips: ['Tip: click the duck for a surprise.', 'Tip: the lamp changes the time of day.'] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Breadcrumbs')).render(h(C.Breadcrumbs, { items: [{ label: 'Home', href: '#' }, { label: 'Workshop', href: '#' }, { label: 'Study Wallpaper' }] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Tabs')).render(h(C.Tabs, { label: 'Character sheet', tabs: [{ id: 'about', label: 'About', content: 'Maker of tiny cozy tools.' }, { id: 'skills', label: 'Skills', content: 'React, n8n, WordPress.' }, { id: 'inv', label: 'Inventory', content: '12 items collected.' }] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-WorldMap')).render(h(C.WorldMap, { current: 'home', locations: [{ id: 'home', label: 'Home', icon: 'home', x: 18, y: 66 }, { id: 'workshop', label: 'Workshop', icon: 'projects', x: 40, y: 30 }, { id: 'library', label: 'Library', icon: 'book', x: 64, y: 60 }, { id: 'mailbox', label: 'Mailbox', icon: 'mail', x: 84, y: 28 }] })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Badge')).render(h(React.Fragment, null, h(C.Badge, null, 'Default'), h(C.Badge, { tone: 'honey', icon: 'star' }, 'Collectible'), h(C.Badge, { tone: 'sage', icon: 'check' }, 'Done'), h(C.Badge, { tone: 'berry' }, 'New'), h(C.Badge, { tone: 'sky' }, 'Info'), h(C.Badge, { tone: 'lavender', pixel: true }, 'Epic'))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-EmptyState')).render(h(C.EmptyState, { title: 'No stars yet', text: 'Little stars are hidden around the world. Click curious things to find them.', action: h(C.Button, { variant: 'secondary', icon: 'map' }, 'Explore') })); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Loader')).render(h(React.Fragment, null, h(C.Loader, { kind: 'pinwheel' }), h(C.Loader, { kind: 'acorn', label: 'Gathering acorns…' }), h(C.Loader, { kind: 'cup', label: 'Brewing tea…' }))); })();
+(function(){ var r = h('div', { className: 'cz-col', style: { padding: 0, width: 360 } }, h(C.ProgressBar, { label: 'World explored', value: 58 }), h(C.ProgressBar, { label: 'Hearts', value: 3, max: 5, valueText: '3/5', tone: 'berry' }), h(C.ProgressBar, { label: 'Stars', value: 7, max: 12, valueText: '7/12', tone: 'honey' }));
+  ReactDOM.createRoot(document.getElementById('ex-ProgressBar')).render(r); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Tooltip')).render(h('div', { style: { paddingTop: 50 } }, h(C.Tooltip, { content: 'Psst — click me for a surprise', open: true }, h(C.IconButton, { icon: 'paw', label: 'Say hi to the duck' })))); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Accordion')).render(h(C.Accordion, { defaultOpen: 0, items: [{ title: 'What do you make?', content: 'Cozy tools, wallpapers and videos.' }, { title: 'Can we work together?', content: 'Send a letter from the mailbox!' }, { title: 'Is the sound on?', content: 'Never by default.' }] })); })();
+(function(){ var r = h('div', { className: 'cz-col', style: { padding: 0 } }, h(C.StatBar, { label: 'Curiosity', value: 9 }), h(C.StatBar, { label: 'Design', value: 7, tone: 'terracotta-500' }), h(C.StatBar, { label: 'Code', value: 6, tone: 'sage-400' }), h(C.StatBar, { label: 'Patience', value: 4, tone: 'sky-300' }));
+  ReactDOM.createRoot(document.getElementById('ex-StatBar')).render(r); })();
+(function(){ ReactDOM.createRoot(document.getElementById('ex-Timeline')).render(h(C.Timeline, { items: [{ when: '2024', title: 'Wrote my first line of code', text: 'A tiny calculator that never quite worked.' }, { when: '2025', title: 'Built my first wallpaper', text: 'Cyberpunk study vibes, sold in my shop.' }, { when: '2026', title: 'Started making videos', text: 'Helping youths feel hopeful about AI.' }, { when: 'Next', title: 'Something new', reached: false }] })); })();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Colours, type and spacing come from the Cozy Game World tokens (app/styles/tokens.css). */
+body {
+  background: var(--bg-page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}

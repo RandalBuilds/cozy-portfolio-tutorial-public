@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cyberpunk-study-wallpaper",
+    "title": "Cyberpunk Study Wallpaper",
+    "description": "A neon-lit study scene for your desktop, for the late-night focus crowd.",
+    "thumbnail": {
+      "icon": "moon",
+      "color": "lavender",
+      "image": "/CozyProductivityProjectImage.jpg"
+    },
+    "tech": "HTML · JS",
+    "category": "Lively",
+    "href": "#",
+    "rarity": "epic"
+  },
+  {
+    "id": "cozy-study-wallpaper",
+    "title": "Cozy Study Wallpaper",
+    "description": "A warm, lamp-lit desk scene to keep you company while you study.",
+    "thumbnail": {
+      "icon": "lamp",
+      "color": "butter",
+      "image": "/CyberpunkProjectImage.jpg"
+    },
+    "tech": "HTML · JS",
+    "category": "Lively",
+    "href": "#",
+    "rarity": "rare"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Travel Expense Tracker",
+    "description": "Track spending across trips and see where every coin went.",
+    "thumbnail": {
+      "icon": "map",
+      "color": "mint",
+      "image": "/tracker-expense-app-image.jpg"
+    },
+    "tech": "React",
+    "category": "Web App",
+    "href": "#",
+    "rarity": "common"
+  }
+]

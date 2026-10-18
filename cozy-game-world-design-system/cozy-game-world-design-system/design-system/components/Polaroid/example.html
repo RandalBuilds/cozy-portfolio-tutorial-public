@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" data-theme="day">
+<head><meta charset="utf-8"><title>Polaroid — Cozy Game World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../bundle.css">
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="../bundle.js"></script>
+</head>
+<body>
+<!-- Standalone example of the Polaroid component. Change data-theme on <html> to dusk or night to see the other themes. -->
+<div id="root" class="cz-row"></div>
+<script>
+  var C = window.Cozy, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(React.Fragment, null, h(C.Polaroid, { caption: 'Studio, spring', alt: 'Placeholder scene' }), h(C.Polaroid, { caption: 'First prototype', tilt: 4 })));
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" data-theme="day">
+<head><meta charset="utf-8"><title>Timeline — Cozy Game World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../bundle.css">
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="../bundle.js"></script>
+</head>
+<body>
+<!-- Standalone example of the Timeline component. Change data-theme on <html> to dusk or night to see the other themes. -->
+<div id="root" class="cz-col"></div>
+<script>
+  var C = window.Cozy, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(C.Timeline, { items: [{ when: '2024', title: 'Wrote my first line of code', text: 'A tiny calculator that never quite worked.' }, { when: '2025', title: 'Built my first wallpaper', text: 'Cyberpunk study vibes, sold in my shop.' }, { when: '2026', title: 'Started making videos', text: 'Helping youths feel hopeful about AI.' }, { when: 'Next', title: 'Something new', reached: false }] }));
+</script>
+</body>
+</html>
